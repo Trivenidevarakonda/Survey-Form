@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UFT-8"
+    <title>freeCodeCamp Survey Form</title>
+     <link rel="stylesheet" href="styles.css" />
+     </head>
+     <body>
+       <h1 id="title">Survey Form</h1>
+       <p id="description">
+Your Feedback Matters!</p>
+<form id="survey-form">
+  <label id="name-label"for="name" >Enter Your Name: <input id="name" type="text" placeholder="enter your name"name="name" required/>
+  </label
+  </br>
+  <label id="email-label"for="email" >Enter Your Email: <input id="email" type="email"placeholder="enter your email" name="email" required/> 
+  
+  </label>
+  <label id="number-label" for="number"> Enter your Age: <input id="number" type="number" name="age " placeholder="enter your age"min="2" max="120" required></label>
+
+  <label for="name-label"> Which option best describes your current role?
+   
+    <select id="dropdown" name="dropdown-list">
+      <option value=" ">select one role</option>
+      <option value="1">student</option>
+      <option value="2">Full Time Job</option>
+      <option value="3">Other</option>
+      </select> </label>
+    
+  <legend>Select Gender</legend>
+  <label for="gender"><input id="gender" type="radio" value="male" name="gender"class="inline" checked/>Male</label>
+
+ <label for="gender1"> <input id="gender1" type="radio" value="female" name="gender" class="inline">Female</label>
+  <label>Select on devices you have</label>
+  
+  <label><input type="checkbox" name="device" value="Smartphone">Smartphone</label>
+  <label><input type="checkbox" name="device"value="laptop">Laptop</label>
+<label><input type="checkbox" name="device"value="tv">Television</label>
+
+<label for="comment"> Any additional comments</label>
+
+ <textarea id="comments" name="comments" rows="4" cols="40" placeholder="Enter your feedback here..."></textarea>
+<br></br>
+<input id="submit"type="submit" value="submit">
+  </from>
