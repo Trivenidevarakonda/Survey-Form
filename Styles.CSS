@@ -1,0 +1,61 @@
+body{
+   width: 100%;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to right, 
+   #4facfe, #ff85a2);
+    font-family: Arial, sans-serif;
+    
+}
+h1,p{
+    margin: 1em auto;
+  text-align:center;
+}
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+/* Fix for checkboxes */
+input[type="checkbox"] {
+  width: auto; /* Reset width for checkboxes */
+  min-height: auto; /* Reset height */
+  margin-right: 5px; /* Space between checkbox and label */
+}
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background: linear-gradient(to right,#6a11cb, #ff6bcb); /* Light Blue to Soft Pink */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  min-width: 300px;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  background: linear-gradient(to right, #3d8bfd, #ff6b81); /* Slightly darker on hover */
+}
